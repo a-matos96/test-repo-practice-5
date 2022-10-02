@@ -75,6 +75,12 @@ console.log(bankAccountBalance);
 // To make things easier and shorter, we are able to input the following in reference to Ln 72
 bankAccountBalance -= 5; // This is the same as saying 'bankAccountBalance = bankAccountBalance -5'
 // We can subsitute the "-=" with any other arthimetic Operator such as "+" "*" "/"
+// Note that with the Operator "+" can function in different ways, depending on if our Operands are Numbers or Strings. If they are Numbers, they will add up the Operands. 
+// If they are Strings, they will combine both Strings together. This is known as Concatenation. 
+
+// Example:
+console.log(5 + 3); // Our Operands are 5 and 3, which are Numbers. The Operation results will be 8.
+console.log("Hello" + "Andre"); // Our Operands are Hello and Andre. The Operation results will be 'HelloAndre'.
 
 // Operation Practice
 console.log(25 + 20);
